@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    html{
+        font-family:raleway;
+    }
+    h1 h2 h3 {
+        font-family:poppins;
+    }
+}
+
+
+
+
+
+

@@ -20,8 +20,8 @@ module.exports = {
       boxShadow: {
         "shadowku": '0px 0px 4px 0px rgba(0, 0, 0, 0.25)',
         "aboutme" : '0px 0px 0px 0px rgba(0, 0, 0, 0.25)'
-      }
-      
+      },
+     
       
     },
   },

@@ -39,6 +39,10 @@
     letter-spacing: 0.24px;
 }
 
+.tombollinier{
+border: 1px solid;
+border-image-source: linear-gradient(180deg, #FD8A18 0%, #EE2C0B 100%);
+}
 
 
 

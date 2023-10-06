@@ -924,6 +924,10 @@ h3{
   gap: 10px;
 }
 
+.gap-\[11px\] {
+  gap: 11px;
+}
+
 .gap-\[12px\] {
   gap: 12px;
 }
@@ -1004,10 +1008,6 @@ h3{
   gap: 96px;
 }
 
-.gap-\[11px\] {
-  gap: 11px;
-}
-
 .rounded-\[20px\] {
   border-radius: 20px;
 }
@@ -1024,22 +1024,9 @@ h3{
   border-width: 1px;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-\[\#B5B5B5\] {
   --tw-border-opacity: 1;
   border-color: rgb(181 181 181 / var(--tw-border-opacity));
-}
-
-.border-\[borderlinier\] {
-  border-color: borderlinier;
-}
-
-.border-\[\#000\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .border-\[\#FD8A18\] {
@@ -1311,10 +1298,6 @@ h3{
 
 .font-semibold {
   font-weight: 600;
-}
-
-.not-italic {
-  font-style: normal;
 }
 
 .leading-\[20px\] {

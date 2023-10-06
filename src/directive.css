@@ -7,6 +7,8 @@
     html{
         font-family:raleway;
         color: black;
+       
+        background-color: #F2F5F9;
     }
     h1{
         font-family:poppins;
@@ -43,7 +45,15 @@
 border: 1px solid;
 border-image-source: linear-gradient(180deg, #FD8A18 0%, #EE2C0B 100%);
 }
-
+.terlihat{ 
+    margin-top:22.34px;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: #F2F5F9;
+    margin-bottom: 66px;
+    justify-content: center;
+}
 
 
 

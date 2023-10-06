@@ -18,19 +18,40 @@
 </head>
     
 <body>
-    <div class="w-[1440px] h-[1024px] bg-[#f2f5f9] shadow-[0px 4px 4px 0px rgba(0, 0, 0, 0.25)] py-[18px] px-[100px]">
+    <div class="max-sm:w-auto max-sm:justify-center max-sm:h-[auto] max-sm:items-center mx-auto  w-[1440px] h-[1024px] bg-[#f2f5f9] shadow-[0px 4px 4px 0px rgba(0, 0, 0, 0.25)] py-[18px] px-[100px]
+    max-sm:p-0 max-sm:m-auto
+    ">
        
-    <header class=" w-[1240] h-[104px] py-[44px] flex flex-shrink-0 items-center justify-between">
+    <header class="max-sm:w-auto w-[1240] h-[104px] py-[44px] flex flex-shrink-0 items-center justify-between
+    max-sm:px-[20px]
+    max-sm:py-[20px]
+    max-sm:h-auto
+
+    
+    ">
         <!-- logo -->
         <div>
-          <p class="text-[24px] font-[400] py-[20px] font-pacifico text-red">My<span class="text-secondary">Portfolio</span></p>
+          <p class="text-[24px] font-[400] max-sm:py-0 py-[20px] font-pacifico text-red">My<span class="text-secondary">Portfolio</span></p>
         </div>
         
     </header>
 
-    <main class="bg-[#F2F5F9] flex w-[1240px]">
+    <main class="bg-[#F2F5F9] flex w-auto 
+    max-sm:flex-col
+    max-sm:w-[400px]
+    max-sm:p-0
+    max-sm:mx-auto
+   
+
+    
+    ">
         <!-- Profile Card -->
-        <div class="profile-card w-[400px] h-[852px] bg-[#fff] shadow-shadowku shrink-0 rounded-[20px] flex flex-wrap justify-center items-center">
+        <div class=" profile-card w-[400px] h-[852px] bg-[#fff] shadow-shadowku shrink-0 rounded-[20px] flex flex-wrap justify-center items-center
+        
+        max-sm:h-[430px]
+        max-sm:w-auto
+
+        ">
             <!-- Profile -->
             <div class="flex-wrap text-center ">
                 <img src="asset/profile-picture.png" alt="foto profile"class=" w-[200px] rounderd-[20px] shrink-0 shadow-[0px 0px 4px 0px rgba(0, 0, 0, 0.25);] justify-center align-middle mt-[52px] ml-[92px] mr-[108px] " >
@@ -85,81 +106,84 @@
             </div>
 
             <!-- contact Card -->
-            <div class="mt-[22.34px] w-[350px] h-[350px] shrink-0 rounded-[20px] bg-[#F2F5F9] justify-center mb-[66px]">
+            <div class="mt-[22.34px] w-[350px] h-[350px] shrink-0 rounded-[20px] bg-[#F2F5F9] justify-center mb-[66px]
+            hidden
+            sm:block
+            ">
 
                  <!-- phone -->
-        <div class="ml-[38px] mt-[33.5px] bg-[#F2F5F9] w-auto h-auto inline-flex items-center gap-[10px]">
-            
-            <div class=" w-auto h-auto flex gap-[5px] p-[10px] items-start " >
-                <div class="py-[2px] px-[6px] w-auto  ">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="21" viewBox="0 0 12 21" fill="none">
-                        <path d="M10 0.5H2C1.46957 0.5 0.960859 0.710714 0.585786 1.08579C0.210714 1.46086 0 1.96957 0 2.5V18.5C0 19.0304 0.210714 19.5391 0.585786 19.9142C0.960859 20.2893 1.46957 20.5 2 20.5H10C10.5304 20.5 11.0391 20.2893 11.4142 19.9142C11.7893 19.5391 12 19.0304 12 18.5V2.5C12 1.96957 11.7893 1.46086 11.4142 1.08579C11.0391 0.710714 10.5304 0.5 10 0.5ZM7 19.5H5V18.5H7V19.5ZM10 17.5H2V3.5H10V17.5Z" fill="url(#paint0_linear_27_10)"/>
-                        <defs>
-                          <linearGradient id="paint0_linear_27_10" x1="6" y1="0.5" x2="6" y2="20.5" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#FF9A1A"/>
-                            <stop offset="1" stop-color="#EC1C09"/>
-                          </linearGradient>
-                        </defs>
-                      </svg>
+                <div class="ml-[38px] mt-[33.5px] bg-[#F2F5F9] w-auto h-auto inline-flex items-center gap-[10px]">
+                    
+                    <div class=" w-auto h-auto flex gap-[5px] p-[10px] items-start " >
+                        <div class="py-[2px] px-[6px] w-auto  ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="21" viewBox="0 0 12 21" fill="none">
+                                <path d="M10 0.5H2C1.46957 0.5 0.960859 0.710714 0.585786 1.08579C0.210714 1.46086 0 1.96957 0 2.5V18.5C0 19.0304 0.210714 19.5391 0.585786 19.9142C0.960859 20.2893 1.46957 20.5 2 20.5H10C10.5304 20.5 11.0391 20.2893 11.4142 19.9142C11.7893 19.5391 12 19.0304 12 18.5V2.5C12 1.96957 11.7893 1.46086 11.4142 1.08579C11.0391 0.710714 10.5304 0.5 10 0.5ZM7 19.5H5V18.5H7V19.5ZM10 17.5H2V3.5H10V17.5Z" fill="url(#paint0_linear_27_10)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_27_10" x1="6" y1="0.5" x2="6" y2="20.5" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF9A1A"/>
+                                    <stop offset="1" stop-color="#EC1C09"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+
+                    </div>
+                    <div class="flex py-[5px] flex-col items-start">
+                        <span class=" flex h-[15px] w-auto justify-center items-center text-[14px] font-semibold  text-[#1A100380]">Phone</span>
+                        <span class="font-semibold text-[14px] leading-[20px]">+6281276784668</span>
+                    </div>
                 </div>
+                <hr class="w-[256px] border-[1px] mb-[16px] ml-[36px] mt-[18px]">
 
-            </div>
-            <div class="flex py-[5px] flex-col items-start">
-                <span class=" flex h-[15px] w-auto justify-center items-center text-[14px] font-semibold  text-[#1A100380]">Phone</span>
-                <span class="font-semibold text-[14px] leading-[20px]">+6281276784668</span>
-            </div>
-        </div>
-        <hr class="w-[256px] border-[1px] mb-[16px] ml-[36px] mt-[18px]">
+                <!-- email -->
+                <div class="ml-[34px] bg-[#F2F5F9] w-auto h-auto inline-flex items-center gap-[12px]">
+                    
+                    <div class=" w-auto h-auto flex gap-[5px] p-[10px] items-start " >
+                        <div class="py-[1px] px-[2px] w-auto  ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M0.969999 5.65L10 0L19.03 5.65C19.61 6 20 6.63 20 7.36V17.36C20 18.46 19.1 19.36 18 19.36H2C0.9 19.36 0 18.46 0 17.36V7.36C0 6.63 0.389999 6 0.969999 5.65ZM2 17.36H18V9.36L10 14.36L2 9.36V17.36ZM10 12.36L18 7.36L10 2.36L2 7.36L10 12.36Z" fill="#FF9C1B"/>
+                            </svg>
+                        </div>
 
-        <!-- email -->
-        <div class="ml-[34px] bg-[#F2F5F9] w-auto h-auto inline-flex items-center gap-[12px]">
-            
-            <div class=" w-auto h-auto flex gap-[5px] p-[10px] items-start " >
-                <div class="py-[1px] px-[2px] w-auto  ">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                        <path d="M0.969999 5.65L10 0L19.03 5.65C19.61 6 20 6.63 20 7.36V17.36C20 18.46 19.1 19.36 18 19.36H2C0.9 19.36 0 18.46 0 17.36V7.36C0 6.63 0.389999 6 0.969999 5.65ZM2 17.36H18V9.36L10 14.36L2 9.36V17.36ZM10 12.36L18 7.36L10 2.36L2 7.36L10 12.36Z" fill="#FF9C1B"/>
-                      </svg>
+                    </div>
+                    <div class="flex py-[5px] flex-col items-start">
+                        <span class=" flex h-[15px] w-auto justify-center items-center text-[14px] font-semibold text-[#1A100380]">Email</span>
+                        <span class="font-semibold text-[14px] leading-[20px]">Ridho12c.rc@gmail.com</span>
+                    </div>
                 </div>
+                <hr class="w-[256px] border-[1px] mb-[16px] ml-[36px] mt-[18px]">
 
-            </div>
-            <div class="flex py-[5px] flex-col items-start">
-                <span class=" flex h-[15px] w-auto justify-center items-center text-[14px] font-semibold text-[#1A100380]">Email</span>
-                <span class="font-semibold text-[14px] leading-[20px]">Ridho12c.rc@gmail.com</span>
-            </div>
-        </div>
-        <hr class="w-[256px] border-[1px] mb-[16px] ml-[36px] mt-[18px]">
+                <!-- location -->
+                <div class="ml-[34px] bg-[#F2F5F9] w-auto h-auto inline-flex items-center gap-[12px]">
+                    
+                    <div class=" w-auto h-auto flex gap-[5px] p-[10px] items-start " >
+                        <div class="py-[2px] px-[5px] w-auto  ">
+                        
+                            <img class="w-[13.5px] h-[19.5px] object-cover" src="/src/asset/ion-location-outline.png">
+                        
+                        </div>
 
-        <!-- location -->
-        <div class="ml-[34px] bg-[#F2F5F9] w-auto h-auto inline-flex items-center gap-[12px]">
-            
-            <div class=" w-auto h-auto flex gap-[5px] p-[10px] items-start " >
-                <div class="py-[2px] px-[5px] w-auto  ">
+                    </div>
+                    <div class="flex py-[5px] flex-col items-start">
+                        <span class=" flex h-[15px] w-auto justify-center items-center text-[14px] font-semibold text-[#1A100380]">Location</span>
+                        <span class="font-semibold text-[14px] leading-[20px]">Batam, Indonesia</span>
+                        
+                    </div>
+                </div>
+                <hr class="w-[256px] border-[1px] mb-[16px] ml-[36px] mt-[18px]">
                 
-                    <img class="w-[13.5px] h-[19.5px] object-cover" src="/src/asset/ion-location-outline.png">
-                  
+                <!-- Download -->
+                <div class="inline-flex py-[10px] px-[20px] rounded-[20px] bg-[#ff9c1b] gap-[10px] justify-center items-center ml-[82px]">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 16L7 11L8.4 9.55L11 12.15V4H13V12.15L15.6 9.55L17 11L12 16ZM6 20C5.45 20 4.979 19.804 4.587 19.412C4.195 19.02 3.99934 18.5493 4 18V15H6V18H18V15H20V18C20 18.55 19.804 19.021 19.412 19.413C19.02 19.805 18.5493 20.0007 18 20H6Z" fill="#F2F7FC"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <P class="font-semibold text-[12px] leading-[20px] text-[#F2F7FC]">Download Resume</P>
+                    </div>
+
                 </div>
-
-            </div>
-            <div class="flex py-[5px] flex-col items-start">
-                <span class=" flex h-[15px] w-auto justify-center items-center text-[14px] font-semibold text-[#1A100380]">Location</span>
-                <span class="font-semibold text-[14px] leading-[20px]">Batam, Indonesia</span>
-                
-            </div>
-        </div>
-        <hr class="w-[256px] border-[1px] mb-[16px] ml-[36px] mt-[18px]">
-        
-        <!-- Download -->
-        <div class="inline-flex py-[10px] px-[20px] rounded-[20px] bg-[#ff9c1b] gap-[10px] justify-center items-center ml-[82px]">
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 16L7 11L8.4 9.55L11 12.15V4H13V12.15L15.6 9.55L17 11L12 16ZM6 20C5.45 20 4.979 19.804 4.587 19.412C4.195 19.02 3.99934 18.5493 4 18V15H6V18H18V15H20V18C20 18.55 19.804 19.021 19.412 19.413C19.02 19.805 18.5493 20.0007 18 20H6Z" fill="#F2F7FC"/>
-                  </svg>
-            </div>
-            <div>
-                <P class="font-semibold text-[12px] leading-[20px] text-[#F2F7FC]">Download Resume</P>
-            </div>
-
-        </div>
                 
             </div>
 
